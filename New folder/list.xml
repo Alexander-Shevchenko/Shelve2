@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+  <message>Using Current Stream 'DMPROD:BM10_1_X'.</message>
+  <message>Using 'E:\Temp.BM10F_SITHDEF\' as the Stream work
+  area.</message>
+  <message>Scanning local work area: 0.20 sec</message>
+  <message>Loading base version DMPROD:BM10F_SITHDEF;35</message>
+  <message>Loading tip version DMPROD:BM10_1_X;6534</message>
+  <message>Loading filesystem data</message>
+  <message>Scanning repository: 61.07 sec</message>
+  <message>Using DMPROD:BM10_1_X;6534 for merge.</message>
+  <resolution-detection>
+    <workarea>
+      <project>DMPROD:BM10F_SITHDEF</project>
+      <project-uid>77890877</project-uid>
+      <base-project-ver>428090</base-project-ver>
+      <perms-after-download>writable</perms-after-download>
+      <perms-after-upload>keep</perms-after-upload>
+    </workarea>
+    <merge-params>
+      <type>foreign</type>
+      <shape>tree</shape>
+      <scopenodeuid>55516911</scopenodeuid>
+      <scopepath>
+      ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics</scopepath>
+      <anyignored>0</anyignored>
+      <src>
+        <objclass>64</objclass>
+        <spec>DMPROD:BM10_1_X</spec>
+        <uid>40128133</uid>
+        <version>428339</version>
+      </src>
+      <tgt>
+        <objclass>64</objclass>
+        <spec>DMPROD:BM10F_SITHDEF</spec>
+        <uid>77890877</uid>
+        <version>-1</version>
+      </tgt>
+      <anc>
+        <objclass>64</objclass>
+        <spec>DMPROD:BM10F_SITHDEF</spec>
+        <uid>77890877</uid>
+        <version>422654</version>
+      </anc>
+    </merge-params>
+    <path-tree>
+      <path id="0"></path>
+      <path id="1" parent="0">ConfigUtil</path>
+      <path id="2" parent="1">configurationutility</path>
+      <path id="3" parent="2">ConfigurationUtilityTest</path>
+      <path id="4" parent="3">ActiveDiagnostics</path>
+    </path-tree>
+    <resolution-list>
+      <resolution>
+        <id>0</id>
+        <parent>4</parent>
+        <syncstate>512</syncstate>
+        <changetypes>
+          <anc-src>2</anc-src>
+          <anc-tgt>0</anc-tgt>
+          <src-tgt>2</src-tgt>
+        </changetypes>
+        <detectedtype>5</detectedtype>
+        <type>5</type>
+        <conflicttype>0</conflicttype>
+        <relpath>
+        ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/ActiveDiagnosticsConfiguratorTests.cs</relpath>
+        <src>
+          <objclass>2</objclass>
+          <relpath>
+          ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/ActiveDiagnosticsConfiguratorTests.cs</relpath>
+          <uid>73360708</uid>
+          <flags>2</flags>
+          <actionflags>0</actionflags>
+          <user>TKONDRATIUK</user>
+          <specuid>69962768</specuid>
+          <fileversion>3</fileversion>
+          <spec>DMPROD:10472J ACTIVEDIAGNOSTICSCONFIGURATORTESTS
+          CS-132781444X11638X4.A-SRC;bm10_july2012?#3</spec>
+          <owner>
+            <objclass>64</objclass>
+            <spec>DMPROD:BM10_1_X</spec>
+            <uid>40128133</uid>
+            <version>428339</version>
+          </owner>
+        </src>
+        <tgt>
+          <objclass>2</objclass>
+          <relpath>
+          ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/ActiveDiagnosticsConfiguratorTests.cs</relpath>
+          <uid>80080518</uid>
+          <flags>2</flags>
+          <actionflags>0</actionflags>
+          <user>PSURIKOV</user>
+          <specuid>69962768</specuid>
+          <fileversion>4</fileversion>
+          <spec>DMPROD:10472J ACTIVEDIAGNOSTICSCONFIGURATORTESTS
+          CS-132781444X11638X4.A-SRC;bm10f_sithdef_2#1</spec>
+          <owner>
+            <objclass>64</objclass>
+            <spec>DMPROD:BM10F_SITHDEF</spec>
+            <uid>77890877</uid>
+            <version>428090</version>
+          </owner>
+        </tgt>
+        <anc>
+          <objclass>2</objclass>
+          <relpath>
+          ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/ActiveDiagnosticsConfiguratorTests.cs</relpath>
+          <uid>80080518</uid>
+          <flags>2</flags>
+          <actionflags>0</actionflags>
+          <user>PSURIKOV</user>
+          <specuid>69962768</specuid>
+          <fileversion>4</fileversion>
+          <spec>DMPROD:10472J ACTIVEDIAGNOSTICSCONFIGURATORTESTS
+          CS-132781444X11638X4.A-SRC;bm10f_sithdef_2#1</spec>
+          <owner>
+            <objclass>64</objclass>
+            <spec>DMPROD:BM10F_SITHDEF</spec>
+            <uid>77890877</uid>
+            <version>422654</version>
+          </owner>
+        </anc>
+        <message>Warning: Overwriting newer local file
+        'ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/ActiveDiagnosticsConfiguratorTests.cs'.</message>
+        <defaultaction>1</defaultaction>
+        <action>2</action>
+      </resolution>
+      <resolution>
+        <id>1</id>
+        <parent>4</parent>
+        <syncstate>64</syncstate>
+        <changetypes>
+          <anc-src>32</anc-src>
+          <anc-tgt>0</anc-tgt>
+          <src-tgt>16</src-tgt>
+        </changetypes>
+        <detectedtype>2</detectedtype>
+        <type>2</type>
+        <conflicttype>0</conflicttype>
+        <relpath>
+        ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/MongoDbTests.cs</relpath>
+        <tgt>
+          <objclass>2</objclass>
+          <relpath>
+          ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/MongoDbTests.cs</relpath>
+          <uid>80080513</uid>
+          <flags>2</flags>
+          <actionflags>0</actionflags>
+          <user>PSURIKOV</user>
+          <specuid>80080514</specuid>
+          <fileversion>1</fileversion>
+          <spec>DMPROD:10472J MONGODBTESTS
+          CS-143395464X1188X300.A-SRC;bm10f_sithdef_2#1</spec>
+          <owner>
+            <objclass>64</objclass>
+            <spec>DMPROD:BM10F_SITHDEF</spec>
+            <uid>77890877</uid>
+            <version>428090</version>
+          </owner>
+        </tgt>
+        <anc>
+          <objclass>2</objclass>
+          <relpath>
+          ConfigUtil/configurationutility/ConfigurationUtilityTest/ActiveDiagnostics/MongoDbTests.cs</relpath>
+          <uid>80080513</uid>
+          <flags>2</flags>
+          <actionflags>0</actionflags>
+          <user>PSURIKOV</user>
+          <specuid>80080514</specuid>
+          <fileversion>1</fileversion>
+          <spec>DMPROD:10472J MONGODBTESTS
+          CS-143395464X1188X300.A-SRC;bm10f_sithdef_2#1</spec>
+          <owner>
+            <objclass>64</objclass>
+            <spec>DMPROD:BM10F_SITHDEF</spec>
+            <uid>77890877</uid>
+            <version>422654</version>
+          </owner>
+        </anc>
+        <defaultaction>1</defaultaction>
+        <action>2</action>
+      </resolution>
+    </resolution-list>
+  </resolution-detection>
+  <message>Getting files: 1.91 sec</message>
+</log>
